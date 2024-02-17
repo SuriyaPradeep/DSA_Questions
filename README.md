@@ -13,3 +13,7 @@
 6.Sum of Series:-Write a program to find the sum of the given series 1+2+3+ . . . . . .(N terms).
 
 7.Value Equal to Index Value:-Given an array Arr of N positive integers.Your task is to find the elements whose value is equal to that of its index value ( Consider 1-based indexing ).
+
+8.Chocolate Distribution:-Given an array of N integers where each value represents the number of chocolates in a packet. Each packet can have a variable number of chocolates. There are m students, the task is to distribute chocolate packets such that: 
+Each student gets one packet.
+The difference between the number of chocolates in the packet with maximum chocolates and the packet with minimum chocolates given to the students is minimum.
