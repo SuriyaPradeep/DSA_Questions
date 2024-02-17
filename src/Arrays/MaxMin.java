@@ -1,3 +1,5 @@
+package Arrays;
+
 /*
 Given an array A of size N of integers.
 Your task is to find the sum of minimum and maximum element in the array.

@@ -1,17 +1,20 @@
+package Arrays;
+
 /*
-Print numbers from 1 to N without the help of loops.
- */
+Print Elements in Array Without using Loop
+*/
 public class Print1ToNWithoutLoop {
-    public static void printNos(int N)
+    public static void printNos(int[] arr,int N)
     {
-        //Recursion calls function until n==1
-        if(N>1){
-            printNos(N-1);
+        //Recursion calls function until n>0
+        if(N>0){
+            printNos(arr,N-1);
         }
-        System.out.print(N+" ");
+        System.out.print(arr[N]+" ");
     }
 
     public static void main(String[] args) {
-        printNos(10);
+        int[] arr={1,2,3,4,5,6,7,8,9,10};
+        printNos(arr, arr.length-1);
     }
 }
