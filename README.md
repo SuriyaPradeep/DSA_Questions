@@ -36,3 +36,7 @@ While the next permutation of arr = [3,2,1] is [1,2,3] because [3,2,1] does not 
 Given an array of integers nums, find the next permutation of nums.
 The replacement must be in place and use only constant extra memory.
 
+12.Repeat and Missing Number Array:-You are given a read only array of n integers from 1 to n.
+Each integer appears exactly once except A which appears twice and B which is missing.
+Return A and B.
+
