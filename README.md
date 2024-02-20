@@ -40,3 +40,13 @@ The replacement must be in place and use only constant extra memory.
 Each integer appears exactly once except A which appears twice and B which is missing.
 Return A and B.
 
+13.Trapping Rain Water:-Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
+
+14.Product of Array Except Self:-Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+You must write an algorithm that runs in O(n) time and without using the division operation.
+
+15.Maximum Product Subarray:-Given an integer array nums, find a subarray that has the largest product, and return the product.
+The test cases are generated so that the answer will fit in a 32-bit integer.
+
+
