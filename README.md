@@ -49,4 +49,8 @@ You must write an algorithm that runs in O(n) time and without using the divisio
 15.Maximum Product Subarray:-Given an integer array nums, find a subarray that has the largest product, and return the product.
 The test cases are generated so that the answer will fit in a 32-bit integer.
 
+16.Two Sum:-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+
 
