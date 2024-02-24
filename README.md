@@ -96,3 +96,5 @@ Input : arr[] = {11, 14, 15, 99}
 Output : 3
 We need to merge all elements to make
 a palindrome.
+
+25.Largest Number formed from an Array:-Given an array of strings arr[] of length n representing non-negative integers, arrange them in a manner, such that, after concatanating them in order, it results in the largest possible number. Since the result may be very large, return it as a string.
