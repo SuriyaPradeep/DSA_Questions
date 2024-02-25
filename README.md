@@ -98,3 +98,13 @@ We need to merge all elements to make
 a palindrome.
 
 25.Largest Number formed from an Array:-Given an array of strings arr[] of length n representing non-negative integers, arrange them in a manner, such that, after concatanating them in order, it results in the largest possible number. Since the result may be very large, return it as a string.
+
+26.Space optimization using bit manipulations:-Given two numbers say a and b, mark the multiples of 2 and 5 between a and b using less than O(|b – a|) space and output each of the multiples. 
+Note : We have to mark the multiples i.e save (key, value) pairs in memory such that each key either have value as 1 or 0 representing as multiple of 2 or 5 or not respectively. 
+
+27.Longest subarray with sum divisible by K:-Given an arr[] containing n integers and a positive integer k. The problem is to find the longest subarray’s length with the sum of the elements divisible by the given value k.
+Input: arr[] = {2, 7, 6, 1, 4, 5}, k = 3
+Output: 4
+Explanation: The subarray is {7, 6, 1, 4} with sum 18, which is divisible by 3.
+
+
