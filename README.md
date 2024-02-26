@@ -118,4 +118,27 @@ Output:
 2 4
 3 4
 
+29.Move Zeroes:-Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+Note that you must do this in-place without making a copy of the array.
+Input: nums = [0,1,0,3,12]
+Output: [1,3,12,0,0]
 
+## Strings
+1.Valid Palindrome:-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+Given a string s, return true if it is a palindrome, or false otherwise.
+
+2.Valid Anagram:-Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+3.Valid Parentheses:-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+
+4.Remove Consecutive Characters:-Given a string S. For each index i(1<=i<=N-1), erase it if s[i] is equal to s[i-1] in the string.
+Input:
+S = aabb
+Output:  ab 
+Explanation: 'a' at 2nd position is
+appearing 2nd time consecutively.
