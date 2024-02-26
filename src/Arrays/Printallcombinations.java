@@ -1,5 +1,16 @@
 package Arrays;
 import java.util.Arrays;
+/*
+Given an array of size n, generate and print all possible combinations of r elements in the array.
+Example:
+Input: arr=[1,2,3,4], r=2
+Output: 1 2
+1 3
+1 4
+2 3
+2 4
+3 4
+ */
 public class Printallcombinations {
     // The main function that prints all combinations of size r
     // in arr[] of size n. This function mainly uses combinationUtil()
@@ -65,7 +76,7 @@ public class Printallcombinations {
         1 1 1
         1 1 2
         1 1 3
-        1 2 3 
+        1 2 3
          */
     }
 }
