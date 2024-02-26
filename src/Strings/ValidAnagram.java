@@ -11,6 +11,8 @@ Output: true
  */
 public class ValidAnagram {
     private static boolean isAnagramHash(String a,String b){
+        a=a.toLowerCase();
+        b=b.toLowerCase();
         HashMap<Character,Integer> hash=new HashMap<>();
         for(char x:a.toCharArray()){
             hash.put(x,hash.getOrDefault(x,0)+1);
@@ -26,9 +28,12 @@ public class ValidAnagram {
         return true;
     }
     private static boolean isAnagramArray(String a,String b){
-        int[] record=new int[26];
+        a=a.toLowerCase();
+        b=b.toLowerCase();
+        int[] record=new int[26];//26 letters
         for(int i=0;i<a.length();i++){
             record[a.charAt(i)-'a']++;
+            //subtract ascii value of that character with a to get index in array record
         }
         for(int i=0;i<b.length();i++){
             record[b.charAt(i)-'a']--;
@@ -42,7 +47,7 @@ public class ValidAnagram {
     }
 
     public static void main(String[] args) {
-        String s1 = "anagram", t1 = "nagaram",s2 = "rat", t2 = "car";
+        String s1 = "anagram", t1 = "nAgaram",s2 = "rat", t2 = "car";
         System.out.println(isAnagramHash(s1,t1));//true
         System.out.println(isAnagramHash(s2,t2));//false
         System.out.println(isAnagramArray(s1,t1));//true
