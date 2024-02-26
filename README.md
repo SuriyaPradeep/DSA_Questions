@@ -107,4 +107,15 @@ Input: arr[] = {2, 7, 6, 1, 4, 5}, k = 3
 Output: 4
 Explanation: The subarray is {7, 6, 1, 4} with sum 18, which is divisible by 3.
 
+28.Print all combinations:-Given an array of size n, generate and print all possible combinations of r elements in the array.
+Example:
+Input: arr=[1,2,3,4], r=2
+Output: 
+1 2
+1 3
+1 4
+2 3
+2 4
+3 4
+
 
