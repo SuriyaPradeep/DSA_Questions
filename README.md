@@ -142,3 +142,39 @@ S = aabb
 Output:  ab 
 Explanation: 'a' at 2nd position is
 appearing 2nd time consecutively.
+
+5.Longest Common Prefix:-Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string "".
+Example 1:
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+6.Convert a sentence into its equivalent mobile numeric keypad sequence:-Given a sentence in the form of a string in uppercase, convert it into its equivalent mobile numeric keypad sequence. Please note there might be spaces in between the words in a sentence and we can print spaces by pressing 0.
+Input:
+S = "GFG"
+Output: 43334
+Explanation: For 'G' press '4' one time.
+For 'F' press '3' three times.
+
+7.Print all the duplicate characters in a string:-Given a string S, the task is to print all the duplicate characters with their occurrences in the given string.
+Example:
+Input: S = “geeksforgeeks”
+Output:
+e, count = 4
+g, count = 2
+k, count = 2
+s, count = 2
+
+8.Longest Substring Without Repeating Characters:-Given a string s, find the length of the longest 
+substring without repeating characters.
+Input: s = "pwwkew"
+Output: 3
+Explanation: The answer is "wke", with the length of 3.
+Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+9.Longest Repeating Character Replacement:-You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.
+Return the length of the longest substring containing the same letter you can get after performing the above operations.
+Example 1:
+Input: s = "ABAB", k = 2
+Output: 4
+Explanation: Replace the two 'A's with two 'B's or vice versa.
