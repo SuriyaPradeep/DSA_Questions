@@ -161,6 +161,13 @@ Note:
 A Sudoku board (partially filled) could be valid but is not necessarily solvable.
 Only the filled cells need to be validated according to the mentioned rules.
 
+36.Squares of a Sorted Array:-Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+Example 1:
+Input: nums = [-4,-1,0,3,10]
+Output: [0,1,9,16,100]
+Explanation: After squaring, the array becomes [16,1,0,9,100].
+After sorting, it becomes [0,1,9,16,100].
+
 ## Strings
 1.Valid Palindrome:-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
 Given a string s, return true if it is a palindrome, or false otherwise.
