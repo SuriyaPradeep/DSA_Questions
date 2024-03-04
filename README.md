@@ -176,9 +176,16 @@ Return the indices of the two numbers, index1 and index2, added by one as an int
 The tests are generated such that there is exactly one solution. You may not use the same element twice.
 Your solution must use only constant extra space.
 
-39.Permutation in String:-Given two strings s1 and s2, return true if s2 contains a permutation of s1, or false otherwise.
-In other words, return true if one of s1's permutations is the substring of s2.
- 
+39.Remove Duplicates from Sorted Array:-Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:
+Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The remaining elements of nums are not important as well as the size of nums.
+Return k.
+
+ 40. Bag of Tokens:-You start with an initial power of power, an initial score of 0, and a bag of tokens given as an integer array tokens, where each tokens[i] donates the value of tokeni.
+Your goal is to maximize the total score by strategically playing these tokens. In one move, you can play an unplayed token in one of the two ways (but not both for the same token):
+Face-up: If your current power is at least tokens[i], you may play tokeni, losing tokens[i] power and gaining 1 score.
+Face-down: If your current score is at least 1, you may play tokeni, gaining tokens[i] power and losing 1 score.
+Return the maximum possible score you can achieve after playing any number of tokens.
 
 ## Strings
 1.Valid Palindrome:-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
@@ -261,5 +268,8 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 14.String Encodeand Decode:-Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings.
 Please implement encode and decode.
+
+15.Permutation in String:-Given two strings s1 and s2, return true if s2 contains a permutation of s1, or false otherwise.
+In other words, return true if one of s1's permutations is the substring of s2.
 
  
