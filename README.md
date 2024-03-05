@@ -272,4 +272,42 @@ Please implement encode and decode.
 15.Permutation in String:-Given two strings s1 and s2, return true if s2 contains a permutation of s1, or false otherwise.
 In other words, return true if one of s1's permutations is the substring of s2.
 
+16.Minimum Length of String After Deleting Similar Ends:-
+Given a string s consisting only of characters 'a', 'b', and 'c'. You are asked to apply the following algorithm on the string any number of times:
+Pick a non-empty prefix from the string s where all the characters in the prefix are equal.
+Pick a non-empty suffix from the string s where all the characters in this suffix are equal.
+The prefix and the suffix should not intersect at any index.
+The characters from the prefix and suffix must be the same.
+Delete both the prefix and the suffix.
+Return the minimum length of s after performing the above operation any number of times (possibly zero times).
+Example 1:
+Input: s = "cabaabac"
+Output: 0
+Explanation: An optimal sequence of operations is:
+- Take prefix = "c" and suffix = "c" and remove them, s = "abaaba".
+- Take prefix = "a" and suffix = "a" and remove them, s = "baab".
+- Take prefix = "b" and suffix = "b" and remove them, s = "aa".
+- Take prefix = "a" and suffix = "a" and remove them, s = "".
  
+17.Minimum Window Substring:-Given two strings s and t of lengths m and n respectively, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. If there is no such substring, return the empty string "".
+The testcases will be generated such that the answer is unique.
+Example 1:
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
+
+## Stack
+1,Valid Parentheses:-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+
+2.Min Stack:-Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+Implement the MinStack class:
+MinStack() initializes the stack object.
+void push(int val) pushes the element val onto the stack.
+void pop() removes the element on the top of the stack.
+int top() gets the top element of the stack.
+int getMin() retrieves the minimum element in the stack.
+You must implement a solution with O(1) time complexity for each function.
