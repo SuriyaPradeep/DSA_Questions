@@ -187,6 +187,19 @@ Face-up: If your current power is at least tokens[i], you may play tokeni, losin
 Face-down: If your current score is at least 1, you may play tokeni, gaining tokens[i] power and losing 1 score.
 Return the maximum possible score you can achieve after playing any number of tokens.
 
+41.Minimum Common Value:-Given two integer arrays nums1 and nums2, sorted in non-decreasing order, return the minimum integer common to both arrays. If there is no common integer amongst nums1 and nums2, return -1.
+Note that an integer is said to be common to nums1 and nums2 if both arrays have at least one occurrence of that integer.
+Example 1:
+Input: nums1 = [1,2,3], nums2 = [2,4]
+Output: 2
+Explanation: The smallest element common to both arrays is 2, so we return 2.
+
+42.Intersection of Two Arrays:-Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order.
+Example 1:
+Input: nums1 = [1,2,2,1], nums2 = [2,2]
+Output: [2]
+
+
 ## Strings
 1.Valid Palindrome:-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
 Given a string s, return true if it is a palindrome, or false otherwise.
