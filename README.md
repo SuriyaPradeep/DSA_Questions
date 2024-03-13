@@ -199,6 +199,10 @@ Example 1:
 Input: nums1 = [1,2,2,1], nums2 = [2,2]
 Output: [2]
 
+43.Find the Pivot Integer:-Given a positive integer n, find the pivot integer x such that:
+The sum of all elements between 1 and x inclusively equals the sum of all elements between x and n inclusively.
+Return the pivot integer x. If no such integer exists, return -1. It is guaranteed that there will be at most one pivot index for the given input.
+
 
 ## Strings
 1.Valid Palindrome:-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
@@ -357,3 +361,17 @@ If there are two middle nodes, return the second middle node.
 Input: head = [1,2,3,4,5]
 Output: [3,4,5]
 Explanation: The middle node of the list is node 3.
+
+3. Remove Zero Sum Consecutive Nodes from Linked List:-Given the head of a linked list, we repeatedly delete consecutive sequences of nodes that sum to 0 until there are no such sequences.
+After doing so, return the head of the final linked list.  You may return any such answer.
+(Note that in the examples below, all sequences are serializations of ListNode objects.)
+Example 1:
+Input: head = [1,2,-3,3,1]
+Output: [3,1]
+Note: The answer [1,2,1] would also be accepted.
+Example 2:
+Input: head = [1,2,3,-3,4]
+Output: [1,2,4]
+Example 3:
+Input: head = [1,2,3,-3,-2]
+Output: [1]
