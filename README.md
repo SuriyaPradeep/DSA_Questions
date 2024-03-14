@@ -203,6 +203,17 @@ Output: [2]
 The sum of all elements between 1 and x inclusively equals the sum of all elements between x and n inclusively.
 Return the pivot integer x. If no such integer exists, return -1. It is guaranteed that there will be at most one pivot index for the given input.
 
+44.Binary Subarrays With Sum:-Given a binary array nums and an integer goal, return the number of non-empty subarrays with a sum goal.
+A subarray is a contiguous part of the array.
+Example 1:
+Input: nums = [1,0,1,0,1], goal = 2
+Output: 4
+Explanation: The 4 subarrays are bolded and underlined below:
+[|1,0,1|,0,1]
+[|1,0,1,0|,1]
+[1,|0,1,0,1|]
+[1,0,|1,0,1|]
+
 
 ## Strings
 1.Valid Palindrome:-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
@@ -321,6 +332,17 @@ Output:  "cbad"
 Explanation: "a", "b", "c" appear in order, so the order of "a", "b", "c" should be "c", "b", and "a".
 Since "d" does not appear in order, it can be at any position in the returned string. "dcba", "cdba", "cbda" are also valid outputs.
 
+19.Excel Sheet Column Number:-Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
+For example:
+A -> 1
+B -> 2
+C -> 3
+...
+Z -> 26
+AA -> 27
+AB -> 28 
+...
+
 ## Stack
 1,Valid Parentheses:-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 An input string is valid if:
@@ -375,3 +397,9 @@ Output: [1,2,4]
 Example 3:
 Input: head = [1,2,3,-3,-2]
 Output: [1]
+
+4.Add Two Numbers:-You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+Input: l1 = [2,4,3], l2 = [5,6,4]
+Output: [7,0,8]
+Explanation: 342 + 465 = 807.
