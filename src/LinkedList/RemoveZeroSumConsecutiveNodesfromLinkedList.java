@@ -28,7 +28,7 @@ public class RemoveZeroSumConsecutiveNodesfromLinkedList {
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-    class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
         ListNode(int x) {
