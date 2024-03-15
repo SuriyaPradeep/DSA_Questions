@@ -4,7 +4,7 @@ Given the head of a singly linked list, return the middle node of the linked lis
 If there are two middle nodes, return the second middle node.
  */
 public class MiddleoftheLinkedList {
-    class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
         ListNode(int x) {
