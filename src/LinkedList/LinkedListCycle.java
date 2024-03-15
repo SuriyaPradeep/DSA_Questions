@@ -8,7 +8,7 @@ There is a cycle in a linked list if there is some node in the list that can be 
 Return true if there is a cycle in the linked list. Otherwise, return false.
  */
 public class LinkedListCycle {
-    class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
         ListNode(int x) {
