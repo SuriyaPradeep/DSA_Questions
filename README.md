@@ -263,6 +263,14 @@ Explanation: The balloons can be burst by 2 arrows:
 - Shoot an arrow at x = 6, bursting the balloons [2,8] and [1,6].
 - Shoot an arrow at x = 11, bursting the balloons [10,16] and [7,12].
 
+51.Task Scheduler:-You are given an array of CPU tasks, each represented by letters A to Z, and a cooling time, n. Each cycle or interval allows the completion of one task. Tasks can be completed in any order, but there's a constraint: identical tasks must be separated by at least n intervals due to cooling time.
+​Return the minimum number of intervals required to complete all tasks.
+Example 1:
+Input: tasks = ["A","A","A","B","B","B"], n = 2
+Output: 8
+Explanation: A possible sequence is: A -> B -> idle -> A -> B -> idle -> A -> B.
+After completing task A, you must wait two cycles before doing A again. The same applies to task B. In the 3rd interval, neither A nor B can be done, so you idle. By the 4th cycle, you can do A again as 2 intervals have passed.
+
 
 ## Strings
 1.Valid Palindrome:-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
@@ -432,6 +440,19 @@ I can be placed before V (5) and X (10) to make 4 and 9.
 X can be placed before L (50) and C (100) to make 40 and 90.
 C can be placed before D (500) and M (1000) to make 400 and 900.
 Given an integer, convert it to a roman numeral.
+
+23.Number of Changing Keys:-You are given a 0-indexed string s typed by a user. Changing a key is defined as using a key different from the last used key. For example, s = "ab" has a change of a key while s = "bBBb" does not have any.
+Return the number of times the user had to change the key.
+Note: Modifiers like shift or caps lock won't be counted in changing the key that is if a user typed the letter 'a' and then the letter 'A' then it will not be considered as a changing of key.
+Example 1:
+Input: s = "aAbBcC"
+Output: 2
+Explanation: 
+From s[0] = 'a' to s[1] = 'A', there is no change of key as caps lock or shift is not counted.
+From s[1] = 'A' to s[2] = 'b', there is a change of key.
+From s[2] = 'b' to s[3] = 'B', there is no change of key as caps lock or shift is not counted.
+From s[3] = 'B' to s[4] = 'c', there is a change of key.
+From s[4] = 'c' to s[5] = 'C', there is no change of key as caps lock or shift is not counted.
 
 ## Stack
 1,Valid Parentheses:-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
