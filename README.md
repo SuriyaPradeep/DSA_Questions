@@ -534,3 +534,11 @@ Explanation: We remove the nodes 3 and 4 and put the entire list2 in their place
 Example 1:
 Input: head = [1,2,3,4,5]
 Output: [5,4,3,2,1]
+
+8.Palindrome Linked List:-Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+Example 1:
+Input: head = [1,2,2,1]
+Output: true
+Example 2:
+Input: head = [1,2]
+Output: false
